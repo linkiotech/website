@@ -1,0 +1,223 @@
+
+
+
+#profo{
+  height:10em;
+  width:auto;
+}
+
+.bg-2 {
+
+  background: -moz-linear-gradient(269deg, rgba(153,153,153,1) 0%, rgba(204,204,204,1) 99%, rgba(204,204,204,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(153,153,153,1)), color-stop(99%, rgba(204,204,204,1)), color-stop(100%, rgba(204,204,204,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(269deg, rgba(153,153,153,1) 0%, rgba(204,204,204,1) 99%, rgba(204,204,204,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(269deg, rgba(153,153,153,1) 0%, rgba(204,204,204,1) 99%, rgba(204,204,204,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(269deg, rgba(153,153,153,1) 0%, rgba(204,204,204,1) 99%, rgba(204,204,204,1) 100%); /* ie10+ */
+  background: linear-gradient(181deg, rgba(153,153,153,1) 0%, rgba(204,204,204,1) 99%, rgba(204,204,204,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#CCCCCC',GradientType=0 ); /* ie6-9 */
+
+
+}
+
+.bg-3 {
+
+  background-color: #ffffff;
+}
+.bg-4  {
+    background-color: #18BC9C;
+    color: #ffffff;
+}
+
+#home img[src="Pictures/logo.jpg"]  {
+    width:50%;
+    height:auto;
+  padding-top: 15%;
+padding-bottom: 15%;
+}
+#aboutpara,#para3{
+
+
+text-align:justify;
+
+  letter-spacing: 3px;
+
+  padding-left:100px;
+  padding-right:100px;
+
+
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 70.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+#cv {
+  padding-top: 60px;
+}
+
+#para1,#para2{
+  color:#ffffff;
+   text-align: center;
+   letter-spacing: 3px;
+}
+
+
+
+
+a.link{
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  opacity:0.9;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+a.link:hover{
+  color:rgb(24, 188, 156);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+
+
+/* Add a dark background color with a little bit see-through */
+
+
+.feature-box{
+
+	text-align: center;
+
+}
+
+.cnt-title { text-align: center; margin-bottom: 50px;}
+.cnt-title span {
+	font-size: 24px;
+	font-weight: 200;
+}
+
+
+body{
+	font-family:'Source Sans Pro', sans-serif;
+	color:#666;
+	font-size:16px;
+	font-weight: 400;
+	  -webkit-font-smoothing: antialiased;
+     font-smoothing: antialiased;
+     text-align: justify;
+
+}
+
+
+
+* {
+     text-shadow: 0 1px 1px rgba(255,255,255,.3);
+}
+
+p{line-height: 24px}
+a{color:#0088cc;}
+
+
+
+
+h1,h2,h3,h4,h5,h6{ font-family:'Source Sans Pro', sans-serif}
+
+
+
+
+
+
+/* Page Header
+==========================*/
+
+.page-header{
+	border-bottom: 1px solid #f5f5f5;
+}
+
+
+/*Media
+========================*/
+
+.media{
+	margin-bottom:50px;
+}
+
+/*MAP
+========================*/
+
+
+
+/*MAP
+========================*/
+
+.blog-post{
+		border-bottom: 2px solid #f5f5f5;
+padding-bottom: 40px;
+		margin-bottom: 40px;
+}
+
+
+.blog-post p{
+	margin: 20px 0;
+
+}
+
+
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 3px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn green */
+.dropdown-menu li a:hover {
+    background-color:rgb(24, 188, 156); !important;
+}
