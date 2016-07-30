@@ -28,7 +28,7 @@
     color: #ffffff;
 }
 
-#home img[src="Pictures/logo.JPG"]  {
+#home img[src="Pictures/logo.PNG"]  {
     width:50%;
     height:auto;
   padding-top: 15%;
@@ -117,7 +117,7 @@ body{
 	  -webkit-font-smoothing: antialiased;
      font-smoothing: antialiased;
      text-align: justify;
-
+	width: 100%;
 }
 
 
